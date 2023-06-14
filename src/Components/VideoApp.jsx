@@ -1,9 +1,11 @@
 import { Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
+import MobileSideBar from "./MobileSideBar";
 
 const VideoApp = () => {
   return (
     <Box w={"90%"} m={"auto"} mt={8}>
+      <MobileSideBar />
       <Text
         fontWeight={600}
         textAlign={{ base: "center", md: "start" }}

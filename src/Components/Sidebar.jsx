@@ -11,7 +11,11 @@ const Links = [
 
 const Sidebar = () => {
   const displaySidebar = useBreakpointValue({ base: "none", md: "block" });
+  
   return (
+    <Box>
+
+    {/* Desktop Side bar */}
     <Box
       w={"100px"}
       bg="#151615"
@@ -38,6 +42,7 @@ const Sidebar = () => {
           />
         ))}
       </Flex>
+    </Box>
     </Box>
   );
 };
