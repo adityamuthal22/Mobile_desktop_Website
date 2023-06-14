@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.play-button,
+.stop-button {
+  background-color: #FF5777;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.play-button:hover,
+.stop-button:hover {
+  background-color: #FF3355;
+}
+
+.play-button {
+  margin-right: 10px;
+}
